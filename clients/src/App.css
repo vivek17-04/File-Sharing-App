@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+
+}
+
+img{
+  width: 30%;
+}
+
+.wrapper{
+  background-color: #fff;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: #4a2a75;
+  margin: 40px 0;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4a2a75;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  margin: 30px 0;
+}
